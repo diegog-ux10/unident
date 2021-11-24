@@ -14,5 +14,8 @@
         </div>
         <div>Politica de Privacidad</div>
     </footer>
+
+    <?php wp_footer(); ?>
+    
 </body>
 </html>
