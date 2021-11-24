@@ -1,8 +1,11 @@
   <?php get_header(); ?> 
    <main class="content-area">
-        <section class="main-area container">
-            <h1></h1>
-            <button></button>
+        <section class="main-area container-fluid">
+            <div class="row mensaje">
+                <h1 class="col-12">Cómplices de tu Sonrisa</h1>
+                <p class="col-12">Centro odontológico en Los Olivos<br>Centro especializado en ortodoncia, implante y estética dental.</p>
+                <button class="col-12 col-lg-4">PEDIR CITA</button>
+            </div>
         </section>
         <section class="especialidades">
             <h1></h1>
