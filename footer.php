@@ -5,8 +5,8 @@
                 <div>Social Media</div>                
             </div>
             <div>
-                <h2></h2>
-                <p></p>
+                <h2>subtitulo</h2>
+                <p>texto</p>
             </div>
             <div>
                 <h2>Contacto</h2>                
