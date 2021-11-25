@@ -3,7 +3,7 @@ header {
 }
 
 .content-area .main-area {
-    height: 700px;
+    height: 43.75rem;
     background-color: rosybrown;
     display: flex;
     align-items: center;
@@ -31,4 +31,19 @@ header {
     color: white;
 }
 
+header .container .menu-area {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.carousel-inner {
+    background-color: #F5F5F5;
+    height: 43.75rem;
+}
+
+.carousel-inner .carousel-item {
+    display: flex;
+    align-items: center;
+
+}
 

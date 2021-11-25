@@ -10,36 +10,38 @@
 <body <?php body_class(); ?>>
     <header>
         <div class="container">
-            <div class='top-bar row mw-100'>
-                <div class="phone col-9 text-right">523 1800</div>
-                <div class="social-icon col-1 text-right">FB</div>
-                <div class="social-icon col-1 text-right">I</div>
-                <div class="social-icon col-1 text-right">Youtube</div>
+            <div class="row">
+                <div class="col-sm-8">logo</div>
+                <div class="col-sm-4">
+                    <div class="phone d-inline">523 1800</div>
+                    <div class="social-icon d-inline">FB</div>
+                    <div class="social-icon d-inline">I</div>
+                    <div class="social-icon d-inline">Youtube</div>
+                </div>
             </div>
-            <section class="menu-area row">
-                <div class="logo col">logo</div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light col-8">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>
-                        </ul>
-                    </div>
-                </nav>
+            <section class="menu-area">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-dark" role="navigation">
+                        <div class="container">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <a class="navbar-brand" href="#"></a>
+                            <?php wp_nav_menu( array(
+                                'theme_location'  => 'my_main_menu',
+                                'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+                                'container'       => 'div',
+                                'container_class' => 'collapse navbar-collapse',
+                                'container_id'    => 'bs-example-navbar-collapse-1',
+                                'menu_class'      => 'navbar-nav ml-auto',
+                                'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                                'walker'          => new WP_Bootstrap_Navwalker(),
+                            ) ); 
+                            ?>
+                        </div>
+                    </nav>
+                </div>
             </section>
         </div>
     </header>
