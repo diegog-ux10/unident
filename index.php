@@ -7,92 +7,174 @@
                 <button class="col-12 col-lg-4">PEDIR CITA</button>
             </div>
         </section>
-        <section class="especialidades">
-            <h1></h1>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active container">
-                        <div class="row">
-                            <div class="card col-3" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="container-fluid" id="area-slide">
+            <div class="titulo-slide"><h1>Especialidades</h1></div>
+            <div class="row">
+                    <div class="col-sm-12">
+                        <div id="inam" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="width: 300px;margin: auto;margin-bottom:10px;">
+                                                    <img src=" <?php echo get_template_directory_uri() . "/css/assets/especialidad-1.png"; ?>  " class='rounded-circle'>
+                                                    <div class="card-body row justify-content-center">
+                                                        <h4 class="card-title">Ortodoncia</h4>
+                                                        <p class="card-text">Una correcta posición de nuestros dientes mejorará nuestra estética y es imprescindible para mejorar el equilibrio oclusal.</p>
+                                                        <button type="button" class="btn btn-warning w-50">Más Información</button>
+                                                                                                                
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="width: 300px;margin: auto;margin-bottom:10px;">
+                                                <img src=" <?php echo get_template_directory_uri() . "/css/assets/especialidad-2.png"; ?>  " class='rounded-circle card-img-top'>
+                                                    <div class="card-body row justify-content-center">
+                                                        <h4 class="card-title">Implantología</h4>
+                                                        <p class="card-text">Los implantes dentales son una de las mejores alternativas existentes para la pérdida de piezas dentales.</p>
+                                                        <button type="button" class="btn btn-warning w-50">Más Información</button>
+                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="width: 300px;margin: auto;margin-bottom:10px;">
+                                                <img src=" <?php echo get_template_directory_uri() . "/css/assets/especialidad-3.png"; ?>  " class='rounded-circle card-img-top'>
+                                                    <div class="card-body row justify-content-center">
+                                                        <h4 class="card-title">Estética Dental</h4>
+                                                        <p class="card-text">Analizamos detalladamente las necesidades del paciente con el objetivo de mejorar su salud, imagen y bienestar emocional.</p>
+                                                        <button type="button" class="btn btn-warning w-50">Más Información</button>
+                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+
+                                    
                                 </div>
-                            </div>
-                            <div class="card col-3" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="width: 300px;margin: auto;margin-bottom:10px;">
+                                                    <img src=" <?php echo get_template_directory_uri() . "/css/assets/especialidad-1.png"; ?>  " class='rounded-circle'>
+                                                    <div class="card-body row justify-content-center">
+                                                        <h4 class="card-title">Ortodoncia</h4>
+                                                        <p class="card-text">Una correcta posición de nuestros dientes mejorará nuestra estética y es imprescindible para mejorar el equilibrio oclusal.</p>
+                                                        <button type="button" class="btn btn-warning w-50">Más Información</button>
+                                                                                                                
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="width: 300px;margin: auto;margin-bottom:10px;">
+                                                <img src=" <?php echo get_template_directory_uri() . "/css/assets/especialidad-2.png"; ?>  " class='rounded-circle card-img-top'>
+                                                    <div class="card-body row justify-content-center">
+                                                        <h4 class="card-title">Implantología</h4>
+                                                        <p class="card-text">Los implantes dentales son una de las mejores alternativas existentes para la pérdida de piezas dentales.</p>
+                                                        <button type="button" class="btn btn-warning w-50">Más Información</button>
+                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="width: 300px;margin: auto;margin-bottom:10px;">
+                                                <img src=" <?php echo get_template_directory_uri() . "/css/assets/especialidad-3.png"; ?>  " class='rounded-circle card-img-top'>
+                                                    <div class="card-body row justify-content-center">
+                                                        <h4 class="card-title">Estética Dental</h4>
+                                                        <p class="card-text">Analizamos detalladamente las necesidades del paciente con el objetivo de mejorar su salud, imagen y bienestar emocional.</p>
+                                                        <button type="button" class="btn btn-warning w-50">Más Información</button>
+                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+
+                                    
                                 </div>
-                            </div>
-                            <div class="card col-3" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="width: 300px;margin: auto;margin-bottom:10px;">
+                                                    <img src=" <?php echo get_template_directory_uri() . "/css/assets/especialidad-1.png"; ?>  " class='rounded-circle'>
+                                                    <div class="card-body row justify-content-center">
+                                                        <h4 class="card-title">Ortodoncia</h4>
+                                                        <p class="card-text">Una correcta posición de nuestros dientes mejorará nuestra estética y es imprescindible para mejorar el equilibrio oclusal.</p>
+                                                        <button type="button" class="btn btn-warning w-50">Más Información</button>
+                                                                                                                
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="width: 300px;margin: auto;margin-bottom:10px;">
+                                                <img src=" <?php echo get_template_directory_uri() . "/css/assets/especialidad-2.png"; ?>  " class='rounded-circle card-img-top'>
+                                                    <div class="card-body row justify-content-center">
+                                                        <h4 class="card-title">Implantología</h4>
+                                                        <p class="card-text">Los implantes dentales son una de las mejores alternativas existentes para la pérdida de piezas dentales.</p>
+                                                        <button type="button" class="btn btn-warning w-50">Más Información</button>
+                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="width: 300px;margin: auto;margin-bottom:10px;">
+                                                <img src=" <?php echo get_template_directory_uri() . "/css/assets/especialidad-3.png"; ?>  " class='rounded-circle card-img-top'>
+                                                    <div class="card-body row justify-content-center">
+                                                        <h4 class="card-title">Estética Dental</h4>
+                                                        <p class="card-text">Analizamos detalladamente las necesidades del paciente con el objetivo de mejorar su salud, imagen y bienestar emocional.</p>
+                                                        <button type="button" class="btn btn-warning w-50">Más Información</button>
+                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+
+                                    
                                 </div>
-                            </div>
+                            <a href="#inam" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a href="#inam" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                            
                         </div>
+                        
                     </div>
-                    <div class="carousel-item container">
-                    <div class="row">
-                            <div class="card col-3" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                            <div class="card col-3" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                            <div class="card col-3" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item container">
-                    <div class="row">
-                            <div class="card col-3" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                            <div class="card col-3" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                            <div class="card col-3" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                
             </div>
-        </section>
+        
         <section class='video'>
             <div>
                 <img src="" alt="">

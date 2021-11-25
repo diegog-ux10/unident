@@ -12,5 +12,6 @@ add_action( 'wp_enqueue_scripts', 'load_scripts');
 register_nav_menus(
     array(
         'my_main_menu' => 'Main Menu',
+        'footer_meni' => 'Footer Menu'
     )
 );

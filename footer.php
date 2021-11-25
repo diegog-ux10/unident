@@ -1,14 +1,17 @@
-<footer>
-        <div>
-            <div>
+<footer class='container'>
+        <div class='row'>
+            <div class='col-12 col-md-4'>
                 <div>Logo</div>
-                <div>Social Media</div>                
+                <div>Siguenos:</div>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">                
             </div>
-            <div>
-                <h2>subtitulo</h2>
+            <div class='col-12 col-md-4'>
+                <h2>NOSOTROS</h2>
                 <p>texto</p>
             </div>
-            <div>
+            <div class='col-12 col-md-4'>
                 <h2>Contacto</h2>                
             </div>
         </div>

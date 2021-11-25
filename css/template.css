@@ -36,14 +36,37 @@ header .container .menu-area {
     justify-content: flex-end;
 }
 
-.carousel-inner {
-    background-color: #F5F5F5;
-    height: 43.75rem;
+.container-fluid .titulo-slide {
+   display: flex;
+   margin-top: 40px;
+   margin-bottom: 20px;
 }
 
-.carousel-inner .carousel-item {
-    display: flex;
-    align-items: center;
+.container-fluid .titulo-slide h1 {
+    margin: 0 auto;
+ }
 
+body .row .card img {
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    margin-top: 10px;
+}
+
+body .row .card p,h4 {
+    color: black;
+text-align: center;
+}
+
+body .row .card {
+  
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+
+#area-slide {
+    background-color: #F5F5F5;
+    padding: 50px;
 }
 
