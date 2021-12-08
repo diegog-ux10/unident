@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unident Prueba 2</title>
+    <title>Unident</title>
     <?php wp_head() ?>
 </head>
 <body <?php body_class(); ?>>
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-sm-8">logo</div>
+                <div class="col-sm-8"><img src="" alt="">Logo</div>
                 <div class="col-sm-4">
                     <div class="phone d-inline">523 1800</div>
                     <div class="social-icon d-inline">FB</div>
